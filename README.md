@@ -51,15 +51,14 @@ http://localhost:3000/cart/edit?productId=2&quantity=3
 ```
 http://localhost:3000/cart/delete?productId=1
 ```
-### Endpoint 4: Read Items in the Cart
-```
-
 **Endpoint:** `/cart/delete`
 
 **Query Parameters:**
 
 -   `productId`: The ID of the product to be deleted (integer).
 
+### Endpoint 4: Read Items in the Cart
+```
 http://localhost:3000/cart
 ```
 ### Endpoint 5: Calculate Total Quantity of Items in the Cart
